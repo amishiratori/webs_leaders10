@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Shelby';
-	src: url(/fonts/Shelby.otf);
+	src: url(fonts/Shelby.otf);
 }
 @font-face {
     font-family: 'Marugame';
-    src: url(/fonts/marugame.otf);
+    src: url(fonts/marugame.otf);
 }
 
 body {
