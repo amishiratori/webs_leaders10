@@ -29,6 +29,7 @@ h2 {
 
 #header {
     margin: 5% auto;
+    margin: auto;
     width: 60%;
 }
 
@@ -57,6 +58,14 @@ h2 {
     margin: 5% 0;
 }
 
+/*
+#why{
+    height: 60%;
+    background: #eee9e6;
+    margin: 5% 0;
+}
+*/
+
 #logos {
     text-align: center;
     width: 15%;
@@ -75,6 +84,7 @@ h2 {
 .unix {
     padding: 20% 0;
 }
+
 
 #why{
     clear: left;
@@ -111,8 +121,10 @@ h2 {
 .do p{
     font-family: 'Marugame';
     font-size: 1.3rem;
+
     margin-bottom: 10%;
     line-height: 1.5rem;
+
 }
 
 .do h3{
@@ -138,6 +150,9 @@ h2 {
     float: left;
     width: 30%;
     margin: 10%;
+    min-width: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .instructor h3{
