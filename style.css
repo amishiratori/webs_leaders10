@@ -1,22 +1,24 @@
 @font-face {
 	font-family: 'Shelby';
-	src: url(fonts/Shelby.otf);
+	src: url(./fonts/Shelby.otf);
 }
 @font-face {
     font-family: 'Marugame';
-    src: url(fonts/marugame.otf);
+    src: url(./fonts/marugame.otf);
 }
 
 body {
     margin:0;
     padding:0;
     background: #eee9e6;
+    color: #3f3f3f;
 }
 
 h2 {
     font-family: 'Shelby';
     font-size: 4rem;
     font-weight: 200;
+    width: 100%;
 }
 #contents{
     position: absolute;
@@ -26,20 +28,19 @@ h2 {
 }
 
 #header {
-    position: relative;
+    margin: 5% auto;
+    width: 60%;
+}
+
+#header img{
     width: 100%;
-    height: 100%;
-    background-image: url(images/header.png);
-    background-size: cover;
 }
 .content {
     width: 70%;
-    margin: 0 auto;
+    margin: 20% auto;
 }
 #what{
     position: relative;
-    width: 100%;
-    height: 170%;
     background: #eee9e6;
     margin: 5% 0;
 }
@@ -52,29 +53,91 @@ h2 {
 #how{
     position: relative;
     width: 100%;
-    height: 50%;
     background: #eee9e6;
     margin: 5% 0;
 }
+
+#logos {
+    text-align: center;
+    width: 15%;
+    height: 100px;
+    float: left;
+    margin: 5%;
+}
+
+
+
+#logos p{
+    font-family: 'Marugame';
+    font-size: 1.3rem;
+}
+
+.unix {
+    padding: 20% 0;
+}
+
 #why{
+    clear: left;
     position: relative;
     width: 100%;
-    height: 50%;
     background: #eee9e6;
     margin: 5% 0;
+    padding-top: 5%;
 }
+#why img {
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.merit {
+    margin: 15% auto;
+    font-family: "Marugame";
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.schedule p{
+    font-family: 'Marugame';
+    font-size: 1.3rem;
+}
+
+.schedule h3{
+    font-family: 'Marugame';
+    font-size: 1.5rem;
+    margin-top: 40px; 
+}
+
+.do p{
+    font-family: 'Marugame';
+    font-size: 1.3rem;
+    margin-bottom: 10%;
+    line-height: 1.5rem;
+}
+
+.do h3{
+    font-family: 'Marugame';
+    font-size: 1.5rem;
+    margin-top: 40px; 
+    margin 5% 0
+}
+
 #instructor{
     position: relative;
     width: 100%;
-    height: 100%;
     background: #eee9e6;
     margin: 5% 0;
 }
-.instructor {
+.instructor-table{
+    overflow: auto;
     text-align: center;
-    width: 40%;
+    width: 100%
+}
+
+.instructor {
     float: left;
-    margin: 5%;
+    width: 30%;
+    margin: 10%;
 }
 
 .instructor h3{
@@ -92,13 +155,17 @@ h2 {
 #footer{
     position: relative;
     width: 100%;
-    height: 20%;
+    height: 5px;
     background: #eee9e6;
-    margin-top: 5%;
+    margin-top:200px;
+    float: left;
+}
+
+#footer h2{
+    text-align: center;
 }
 
 #footer img {
-    position: absolute;
     margin: 2% 35%;
     bottom: 0;
 }
